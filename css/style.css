@@ -1,0 +1,54 @@
+.bg-image{
+    background-image: url(../images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L21vdGFybzdfM2RfcmVuZGVyX2NhcnRvb25fc3R5bGVfb2ZfYV9pY2Vfcmlua19jYXJ0b29uX3N0eWxlYmFja182NTg2M2EzZi0yZTc1LTQzMTQtOWMxZS04Y2NkNTdjMzkwN2RfMS5qcGc.webp);
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.boy{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    animation: boy 5s linear infinite;
+    z-index: 100;
+}
+.skating-boy{
+    width: 150px;
+    height: 150px;
+}
+@keyframes boy{
+    from{bottom: 100px;left:100px ;}
+    to{bottom: 150px;left:300px;transform: rotate(-60deg);}
+}
+.girl1{
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    animation: girl1 10s linear infinite;
+    z-index: 70;
+}
+@keyframes girl1{
+    from{bottom: 150px; right: 150px;}
+    to{ bottom: 150px; right: 1400px;}
+}
+
+.girl1-img{
+    width: 200px;
+    height: 200px;
+}
+.girl2{
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+    z-index: 50;
+    animation: girl2 5s linear infinite;
+}
+.girl2-img{
+    width: 100px;
+    height: 100px;
+}
+@keyframes girl2{
+    from{bottom: 200px; left: 550px;}
+    to{bottom: 200px; left: 1200px;}
+}
